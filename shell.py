@@ -1,8 +1,16 @@
 # -*- coding: utf-8 -*-
 import getpass
 import os
+import sys
 
-PATH_TO_TOOl = "C:/Windows/System32;C:/Users/cyber/Desktop/Shell"
+path_to_tool = sys.argv[0].split("/")
+path_to_tool.pop()
+temp = ""
+for word in path_to_tool:
+    temp += word + "/"
+path_to_tool = temp[:-1]
+
+PATH_TO_TOOL = "C:/Windows/System32" + ";" + path_to_tool
 
 
 def detect_file(tool, path):
@@ -12,27 +20,29 @@ def detect_file(tool, path):
     else:
         return path + "/" + tool + ".exe"
 
+
 def is_file(tool, path):
     return os.path.isfile(detect_file(tool, path))
 
 
+def find_and_run(input1):
+    did_it = False
+    for path in PATH_TO_TOOL.split(";"):
+            if did_it:
+                break
+            if is_file(input1, path):
+                os.system(detect_file(input1, path))
+                did_it = True
+
+
 def main():
     done = False
-    did_it = False
     print "Hello, " + getpass.getuser()
     while not done:
         input_ = raw_input("Enter your command: ")
         if input_ == "exit":
             done = True
-        for path in PATH_TO_TOOl.split(";"):
-            print path
-            if did_it:
-                break
-            if is_file(input_, path):
-                print "a"
-                os.system(detect_file(input_, path))
-                did_it = True
-        did_it = False
+        find_and_run(input_)
 
 if __name__ == '__main__':
     main()

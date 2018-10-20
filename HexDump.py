@@ -1,7 +1,7 @@
 import os
 import binascii
 
-FILE_PATH = "C:/Users/cyber/Desktop/shell/bin.txt"
+FILE_PATH = "C:/Users/ben-horin/Desktop/shell/bin.txt"
 
 def is_file(path):
     return os.path.isfile(path)
@@ -17,7 +17,6 @@ def converter(text):
             count = 0
         else:
             hex_ret += str(char)
-    print(hex_ret)
     return hex_ret
 
 

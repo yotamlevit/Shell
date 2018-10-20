@@ -2,7 +2,7 @@
 import getpass
 import os
 
-PATH_TO_TOOl = "C:/Windows/System32;C:/Users/cyber/Desktop/Shell"
+PATH_TO_TOOl = "C:/Windows/System32;C:/Users/ben-horin/Desktop/Shell"
 
 
 def detect_file(tool, path):
