@@ -2,6 +2,7 @@
 import getpass
 import os
 import sys
+import subprocess
 
 path_to_tool = sys.argv[0].split("/")
 path_to_tool.pop()
@@ -39,6 +40,8 @@ def main():
     done = False
     print "Hello, " + getpass.getuser()
     while not done:
+        pip = subprocess.PIPE
+
         input_ = raw_input("Enter your command: ")
         if input_ == "exit":
             done = True

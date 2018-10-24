@@ -41,7 +41,8 @@ def find_and_run(input1):
                 break
             if is_file(action[0], path):
                 if len(action) < 2:
-                    action.append(" ")
+                    ######     need to do an empty תא for the ipconfig
+                    print action
                 value = ["python", detect_file(action[0], path)] + [action[1]]
                 print subprocess.check_output(value)
                 #os.system(detect_file(input1, path))

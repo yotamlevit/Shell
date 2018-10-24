@@ -1,7 +1,7 @@
 import os
 import binascii
-import sys
 
+FILE_PATH = "C:/Users/cyber/Documents/GitHub/shell/bin.txt"
 
 def is_file(path):
     return os.path.isfile(path)
@@ -24,9 +24,8 @@ def main():
     """
     Add Documentation here
     """
-    # p = subprocess.check_output()
-    if is_file(sys.argv[1]):
-        with open(sys.argv[1], 'rb') as r:
+    if is_file(FILE_PATH):
+        with open(FILE_PATH, 'rb') as r:
             text = r.read()
         print(converter(text))
 
