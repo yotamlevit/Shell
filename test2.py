@@ -1,20 +1,14 @@
 # -*- coding: utf-8 -*-
 import subprocess
+import sys
 
 def main():
     """
     Add Documentation here
     """
-    input1 = "HexDump | bin.txt"
-    temp = input1.split("|")
-    action = []
-    for t in temp:
-        s = t.lstrip(" ")
-        s = s.split(" ")
-        print s
-        if s[0] != " ":
-            action.append(s[0])
-    print action
+    print ["C:/Windows/System32/where.exe"] + ["notepad"]
+    print subprocess.check_output(["C:/Windows/System32/where.exe"] + ["notepad"])
+    #print subprocess.check_output("ipconfig /renew" ).decode('utf-8')
 
 
 if __name__ == '__main__':

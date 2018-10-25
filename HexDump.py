@@ -25,6 +25,7 @@ def main():
     Add Documentation here
     """
     # p = subprocess.check_output()
+    print sys.stdin
     if is_file(sys.argv[1]):
         with open(sys.argv[1], 'rb') as r:
             text = r.read()
