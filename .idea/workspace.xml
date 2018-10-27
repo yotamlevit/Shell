@@ -26,7 +26,7 @@
       <file leaf-file-name="Hello.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Hello.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="33" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+            <state line="10" column="0" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
               <folding />
             </state>
           </provider>
@@ -35,35 +35,10 @@
       <file leaf-file-name="HexDump.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HexDump.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="19" selection-start="488" selection-end="488" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="temp.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/temp.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="10" selection-start="647" selection-end="647" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="script.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/script.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="shell.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shell.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="22" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="901">
-              <folding />
+            <state line="19" column="0" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="1156">
+              <folding>
+                <element signature="e#57#66#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -71,29 +46,9 @@
       <file leaf-file-name="shell2.0.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/shell2.0.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="122" column="54" selection-start="3917" selection-end="3917" vertical-scroll-proportion="0.6335617" vertical-offset="1582" max-vertical-offset="2272">
+            <state line="24" column="13" selection-start="532" selection-end="532" vertical-scroll-proportion="0.18959913" vertical-offset="233" max-vertical-offset="4828">
               <folding>
-                <element signature="e#24#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="78" selection-start="0" selection-end="1459" vertical-scroll-proportion="0.0" vertical-offset="461" max-vertical-offset="1071">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test2.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="11" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-              <folding>
-                <element signature="e#24#41#0" expanded="true" />
+                <element signature="e#81#95#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -114,11 +69,13 @@
       <list>
         <option value="$PROJECT_DIR$/temp.py" />
         <option value="$PROJECT_DIR$/shell.py" />
-        <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/Hello.py" />
+        <option value="$APPLICATION_HOME_DIR$/.PyCharm30/system/python_stubs/-786126126/sys.py" />
         <option value="$PROJECT_DIR$/test2.py" />
-        <option value="$PROJECT_DIR$/HexDump.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/in_out.txt" />
         <option value="$PROJECT_DIR$/shell2.0.py" />
+        <option value="$PROJECT_DIR$/HexDump.py" />
+        <option value="$PROJECT_DIR$/Hello.py" />
       </list>
     </option>
   </component>
@@ -154,7 +111,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -175,6 +131,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -243,26 +200,6 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test2.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="shell2.0" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Shell" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/shell2.0.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PyDebugRunner" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PyDebugRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
@@ -405,19 +342,38 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
+    <configuration default="false" name="shell2.0" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Shell" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/shell2.0.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.test" />
-      <item index="1" class="java.lang.String" itemvalue="Python.HexDump" />
-      <item index="2" class="java.lang.String" itemvalue="Python.shell" />
-      <item index="3" class="java.lang.String" itemvalue="Python.test2" />
-      <item index="4" class="java.lang.String" itemvalue="Python.shell2.0" />
+      <item index="1" class="java.lang.String" itemvalue="Python.shell2.0" />
+      <item index="2" class="java.lang.String" itemvalue="Python.HexDump" />
+      <item index="3" class="java.lang.String" itemvalue="Python.shell" />
+      <item index="4" class="java.lang.String" itemvalue="Python.test2" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.shell2.0" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.HexDump" />
         <item index="1" class="java.lang.String" itemvalue="Python.test2" />
         <item index="2" class="java.lang.String" itemvalue="Python.shell" />
-        <item index="3" class="java.lang.String" itemvalue="Python.HexDump" />
       </list>
     </recent_temporary>
   </component>
@@ -435,18 +391,18 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32982087" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39936775" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32982087" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32982087" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32982087" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33192834" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -468,10 +424,137 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Hello.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="33" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HexDump.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="486" selection-end="486" vertical-scroll-proportion="0.0" vertical-offset="172" max-vertical-offset="816">
+          <folding>
+            <element signature="e#57#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/temp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="10" selection-start="647" selection-end="647" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shell.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="22" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="952">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shell2.0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="105" column="18" selection-start="3074" selection-end="3074" vertical-scroll-proportion="0.0" vertical-offset="1785" max-vertical-offset="2567">
+          <folding>
+            <element signature="e#81#95#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="78" selection-start="0" selection-end="1459" vertical-scroll-proportion="0.0" vertical-offset="748" max-vertical-offset="1122">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="25" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/in_out.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1836">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hello.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="33" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HexDump.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="7" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="646">
+          <folding>
+            <element signature="e#57#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/temp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="10" selection-start="647" selection-end="647" vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="646">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shell.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="22" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="952">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shell2.0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="122" column="54" selection-start="3917" selection-end="3917" vertical-scroll-proportion="0.0" vertical-offset="2074" max-vertical-offset="2414">
+          <folding>
+            <element signature="e#81#95#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="78" selection-start="0" selection-end="1459" vertical-scroll-proportion="0.0" vertical-offset="748" max-vertical-offset="1122">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="11" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Hello.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="10" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
@@ -482,7 +565,9 @@
     <entry file="file://$PROJECT_DIR$/HexDump.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="35" selection-start="468" selection-end="468" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="663">
-          <folding />
+          <folding>
+            <element signature="e#57#66#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -511,7 +596,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="0" selection-start="468" selection-end="468" vertical-scroll-proportion="0.0" vertical-offset="250" max-vertical-offset="1173">
           <folding>
-            <element signature="e#24#38#0" expanded="true" />
+            <element signature="e#81#95#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -526,9 +611,7 @@
     <entry file="file://$PROJECT_DIR$/test2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="39" selection-start="480" selection-end="480" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="527">
-          <folding>
-            <element signature="e#24#41#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -542,7 +625,9 @@
     <entry file="file://$PROJECT_DIR$/HexDump.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="35" selection-start="468" selection-end="468" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="663">
-          <folding />
+          <folding>
+            <element signature="e#57#66#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -571,7 +656,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="48" selection-start="990" selection-end="990" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1139">
           <folding>
-            <element signature="e#24#38#0" expanded="true" />
+            <element signature="e#81#95#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -586,52 +671,27 @@
     <entry file="file://$PROJECT_DIR$/test2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="16" selection-start="135" selection-end="334" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="442">
-          <folding>
-            <element signature="e#24#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="923">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/Heights/PortableApps/PortablePython2.7.6.1/App/Lib/subprocess.py">
+    <entry file="file://$APPLICATION_HOME_DIR$/.PyCharm30/system/python_stubs/-786126126/sys.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="956" column="43" selection-start="33903" selection-end="33903" vertical-scroll-proportion="0.3327869" vertical-offset="16049" max-vertical-offset="27642">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shell.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="22" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0" vertical-offset="29" max-vertical-offset="952">
+        <state line="406" column="44" selection-start="13999" selection-end="13999" vertical-scroll-proportion="0.2479062" vertical-offset="6754" max-vertical-offset="7973">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="78" selection-start="0" selection-end="1459" vertical-scroll-proportion="0.0" vertical-offset="748" max-vertical-offset="1122">
+        <state line="168" column="10" selection-start="4747" selection-end="4747" vertical-scroll-proportion="0.0" vertical-offset="2231" max-vertical-offset="2907">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="11" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <folding>
-            <element signature="e#24#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hello.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="33" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+        <state line="0" column="23" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
           <folding />
         </state>
       </provider>
@@ -643,18 +703,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/script.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shell.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="22" selection-start="194" selection-end="194" vertical-scroll-proportion="0.12892741" vertical-offset="0" max-vertical-offset="923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/Heights/PortableApps/PortablePython2.7.6.1/App/Lib/subprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="190" column="66" selection-start="7189" selection-end="7200" vertical-scroll-proportion="0.23522854" vertical-offset="3019" max-vertical-offset="27642">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/in_out.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="608">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hello.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/HexDump.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="19" selection-start="488" selection-end="488" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
-          <folding />
+        <state line="19" column="0" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="1156">
+          <folding>
+            <element signature="e#57#66#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shell2.0.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="122" column="54" selection-start="3917" selection-end="3917" vertical-scroll-proportion="0.6335617" vertical-offset="1582" max-vertical-offset="2272">
+        <state line="24" column="13" selection-start="532" selection-end="532" vertical-scroll-proportion="0.18959913" vertical-offset="233" max-vertical-offset="4828">
           <folding>
-            <element signature="e#24#38#0" expanded="true" />
+            <element signature="e#81#95#0" expanded="true" />
           </folding>
         </state>
       </provider>

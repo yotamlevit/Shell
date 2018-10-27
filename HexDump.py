@@ -1,12 +1,30 @@
+"""
+date: 25/10/2018
+Name: shell project
+Yotam Levit
+"""
 import os
 import binascii
 import sys
 
 
 def is_file(path):
+    """
+    check is file and or his path exist
+    ;path: the path that is checked
+    return: True if exist
+            False if not exist
+    """
     return os.path.isfile(path)
 
+
 def converter(text):
+    """
+    convert a regular text to hex
+    ;text: the text that is wanted to
+           be converted
+    return: the hex value of text
+    """
     hex_text = binascii.hexlify(text)
     count = 0
     hex_ret = ""
@@ -22,14 +40,24 @@ def converter(text):
 
 def main():
     """
-    Add Documentation here
+    the main function, check if there
+    is value in sys.argv and if do so convert
+    to hex the file in the path. else
+    will convert the input from the stdin
     """
-    # p = subprocess.check_output()
-    print sys.stdin
-    if is_file(sys.argv[1]):
-        with open(sys.argv[1], 'rb') as r:
-            text = r.read()
+    if len(sys.argv) > 1:
+        if is_file(sys.argv[1]):
+            with open(sys.argv[1], 'rb') as r:
+                text = r.read()
+            print(converter(text))
+        else:
+            print converter(sys.argv[1])
+    elif sys.stdin is not None:
+        text = ""
+        for line in sys.stdin:
+            text += line
         print(converter(text))
-
+    else:
+        print "Invalid piping"
 if __name__ == '__main__':
     main()
