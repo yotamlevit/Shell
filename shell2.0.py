@@ -206,6 +206,19 @@ def run_command(action, path, pip_data, i, std):
     return i, None, std, pip_data
 
 
+def convert_low(action):
+    """
+    convert all commands to lowercase
+    ;action: list of commands
+    return: list of commands in lowercase
+    """
+    i = 0
+    for a in action:
+        action[i] = a.lower()
+        i += 1
+    return action
+
+
 def run(user_input):
     """
     the function runs the user`s commands using a loop with piping and errors
@@ -218,8 +231,9 @@ def run(user_input):
     space = False
     std = False
     pip_data = EMPTY
+    action = convert_low(action)
     while i < x:
-        if action[i] == "Hello" and x == 1:
+        if action[i] == "hello" and x == 1:
             pip_data = SPACE_ST
         if std:
             path = find_path(action[i])
